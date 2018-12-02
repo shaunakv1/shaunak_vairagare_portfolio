@@ -36,7 +36,7 @@ p {
     color: #fff;
     padding: 8px 15px;
     @include border-radius(2px);
-    @include box-shadow(0 2px 4px 0 rgba(0,0,0,0.4));
+    //@include box-shadow(0 2px 4px 0 rgba(0,0,0,0.4));
     text-transform: uppercase;
     font-weight: 500;
     font-size:14px;
