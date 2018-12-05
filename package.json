@@ -6,6 +6,7 @@
   "scripts": {
     "scss": "parcel watch assets/scss/theme-14.scss -d css",
     "dev": "parcel index.html",
+    "publish": "git subtree push --prefix dist origin gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
